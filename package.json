@@ -1,0 +1,31 @@
+{
+  "name": "what-should-we-do",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint:eslint": "eslint src",
+    "lint:prettier": "prettier --check --cache .",
+    "lint:tsc": "tsc --noEmit"
+  },
+  "author": {
+    "name": "Sosuke Suzuki",
+    "email": "aosukeke@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.18.5",
+    "globby": "^13.1.2",
+    "meow": "^10.1.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
