@@ -1,1 +1,1 @@
-console.log("FOO");
+export * from "./core.js";
